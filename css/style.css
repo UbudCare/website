@@ -1,83 +1,49 @@
 /* general */
-body {
-  font-family: ;
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: "Montserrat", sans-serif;
+  background: url(../images/background.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
-#logo-ubudcare {
-  width: 60px;
+hr {
+  margin: 20px auto;
+  color: #ffd819;
+  border: 3px solid #ffd819;
+  max-width: 65px;
+  opacity: 1;
 }
 
-button {
-  background-color: yellow;
+h1 {
+  font-size: 3rem;
+}
+
+.btn-primary {
+  color: #fff;
+  border-radius: 20px;
+  border: 2px solid #ffd819;
+  background: #ffd819;
+}
+.btn-primary:hover {
+  background: #fff;
+  color: #ffd819;
+  border-width: 2px;
+  border-color: #ffd819;
 }
 
 /* navbar */
-.upper-nav ul li {
-  list-style: none;
-  display: inline;
-  float: right;
-  padding: 10px 20px;
-}
-
-.middle-nav {
-  clear: both;
-  margin: 0 auto;
-  /* background-color: whitesmoke; */
-  width: fit-content;
-}
-
-.lower-nav ul li {
-  list-style: none;
-  display: inline;
-  padding: 10px 30px;
-  text-align: center;
-  background-color: whitesmoke;
-}
 
 /* header */
-.header-wrapper {
-  width: 100%;
-  display: flex;
-  height: 500px;
-}
-
-.header-left,
-.header-right {
-  background-color: whitesmoke;
-  border: 1px solid black;
-  margin: 0 auto;
-  padding: 10px;
-  flex: 1;
-}
-
-.header img {
-  width: 200px;
-}
 
 /* about */
-.about-wrapper {
-  width: 100%;
-  display: flex;
-}
-
-.about-left,
-.about-right {
-  background-color: whitesmoke;
-  border: 1px solid black;
-  margin: 0 auto;
-  padding: 10px;
-  flex: 1;
-}
-
-.about img {
-  width: 200px;
-}
 
 /* service */
 
-.services img {
-  width: 100px;
-}
 /* team */
 
 /* clinic */
