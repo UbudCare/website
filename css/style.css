@@ -13,24 +13,27 @@ html {
 
 hr {
   margin: 20px auto;
-  color: #f05f44;
-  border: 3px solid #f05f44;
+  color: #ffd819;
+  border: 3px solid #ffd819;
   max-width: 65px;
   opacity: 1;
 }
 
 h1 {
   font-size: 3rem;
-  /* color: ; */
 }
 
-.btn {
-  font-size: 3rem;
-  border-radius: 300px;
+.btn-primary {
+  color: #fff;
+  border-radius: 20px;
+  border: 2px solid #ffd819;
+  background: #ffd819;
 }
-
-.btn-lg {
-  padding: 1rem 2rem;
+.btn-primary:hover {
+  background: #fff;
+  color: #ffd819;
+  border-width: 2px;
+  border-color: #ffd819;
 }
 
 /* navbar */
