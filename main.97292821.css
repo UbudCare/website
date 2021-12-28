@@ -4714,6 +4714,7 @@ body {
   color: #000;
 }
 h2:after {
+  text-align: center;
   content: "";
   display: block;
   background-color: #66c0b3;
