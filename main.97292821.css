@@ -11,7 +11,7 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 body {
-  margin: 0;
+  margin: auto 0;
 }
 article,
 aside,
@@ -23,10 +23,17 @@ header,
 hgroup,
 main,
 menu,
-nav,
 section,
 summary {
   display: block;
+}
+.nav {
+  display: flex;
+  list-style: none;
+  font-size: 1.2em;
+}
+li {
+  padding: 0.5em;
 }
 audio,
 canvas,
@@ -44,6 +51,7 @@ template {
   display: none;
 }
 a {
+  color: #000;
   background-color: transparent;
 }
 a:active,
@@ -234,6 +242,12 @@ th {
   .navbar {
     display: none;
   }
+
+  /*  */
+  .push-right {
+    margin-right: auto;
+  }
+
   .btn > .caret,
   .dropup > .btn > .caret {
     border-top-color: #000 !important;
